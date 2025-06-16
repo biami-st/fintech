@@ -1,0 +1,52 @@
+:root {
+  --bs-gray: #c8c8c8;
+  --bs-blue-grayish: #007191;
+  --bs-orange: #A6601A;
+  --bs-blue: #3632E3;
+  --bs-blue-info:#2DD3DB;
+  --bs-black: #565555;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #EDEDED, #007191);
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: light;
+  font-size: large;
+}
+
+.fonte-16px {
+  font-size: 18px;
+}
+
+.fonte-22px {
+  font-size: 22px;
+}
+
+.fonte-36px {
+  font-size: 40px;
+}
+
+.card-customized {
+  background: #AFD1DB;
+  border-radius: 20px;
+}
+
+h5 {
+  color: var(--bs-black);
+}
+
+button {
+  color: var(--bs-gray);
+}
+
+.info-color {
+  color: var(--bs-blue);
+}
+
+.danger-color {
+  color: var(--bs-orange);
+}
